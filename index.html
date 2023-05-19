@@ -1,0 +1,1003 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.." Script Made By Unifield#4776", "Midnight")
+
+local MainTab = Window:NewTab("메인")
+
+local MainSection = MainTab:NewSection("메인 스크립트들")
+
+MainSection:NewLabel("Comming Soon...")
+
+local AvatarTab = Window:NewTab("교복 / 옷")
+
+local AvatarSection = AvatarTab:NewSection("옷 바꾸기 스크립트 FE")
+
+AvatarSection:NewLabel("여자 교복")
+
+AvatarSection:NewButton("여자 교복 1", "클릭하면 입어짐", function()
+    local args = {
+    [1] = "shirt",
+    [2] = "http://www.roblox.com/asset/?id=6202771437"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pants",
+    [2] = "http://www.roblox.com/asset/?id=6202778234"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("여자 교복 2", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "http://www.roblox.com/asset/?id=4592692845"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pants",
+    [2] = "http://www.roblox.com/asset/?id=5183356037"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+
+end)
+
+AvatarSection:NewLabel("남자 교복")
+
+AvatarSection:NewButton("남자 교복 1", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "rbxassetid://6202138267"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pants",
+    [2] = "rbxassetid://6202139069"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewLabel("셔츠")
+
+AvatarSection:NewButton("크리스마스 셔츠", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "rbxassetid://6081197542"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("Anti Social 셔츠", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "rbxassetid://6081203802"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("회색 셔츠", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "rbxassetid://6202133566"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("하늘색 셔츠", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "http://www.roblox.com/asset/?id=6013198192"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("검은색 셔츠", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "rbxassetid://6081277194"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("흰색 셔츠 1", "클릭하면 입어짐", function()
+    local args = {
+    [1] = "shirt",
+    [2] = "http://www.roblox.com/asset/?id=6012614858"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("흰색 셔츠 2", "클릭하면 입어짐", function()
+    local args = {
+    [1] = "shirt",
+    [2] = "http://www.roblox.com/asset/?id=6012497488"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewLabel("바지")
+
+AvatarSection:NewButton("검은 스타킹 바지", "클릭하면 입어짐", function()
+local args = {
+    [1] = "pants",
+    [2] = "http://www.roblox.com/asset/?id=6202813833"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("검은색 바지", "클릭하면 입어짐", function()
+local args = {
+    [1] = "pants",
+    [2] = "rbxassetid://6202134538"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("회색 & 검은색 바지", "클릭하면 입어짐", function()
+local args = {
+    [1] = "pants",
+    [2] = "rbxassetid://6202134538"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("교복 바지", "클릭하면 입어짐", function()
+local args = {
+    [1] = "pants",
+    [2] = "rbxassetid://6081256676"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewLabel("파자마")
+AvatarSection:NewButton("보라색 파자마", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "rbxassetid://6099272816\n"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+
+local args = {
+    [1] = "pants",
+    [2] = "rbxassetid://6099272816\n"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("연두색 파자마", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "rbxassetid://6099273638\n"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+local args = {
+    [1] = "pants",
+    [2] = "rbxassetid://6099273638\n"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+end)
+
+AvatarSection:NewButton("파란색 파자마", "클릭하면 입어짐", function()
+local args = {
+    [1] = "shirt",
+    [2] = "rbxassetid://6099256128\n"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+local args = {
+    [1] = "pants",
+    [2] = "rbxassetid://6099256128\n"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("WearShirt"):FireServer(unpack(args))
+
+end)
+
+
+local FoodTab = Window:NewTab("음식")
+
+local FoodSection = FoodTab:NewSection("음식 스크립트")
+
+FoodSection:NewButton("사과", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts.Apple.ClickDetector)
+end)
+
+FoodSection:NewButton("바나나", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts.Banana.ClickDetector)
+end)
+
+FoodSection:NewButton("도넛", "클릭하면 얻어짐", function()
+for i,v in pairs(game:GetService("Workspace").Parts:GetChildren()) do
+if v.Name == "Donut" then
+for a,b in pairs(v:GetChildren()) do
+if b.Name == "ClickDetector" then
+fireclickdetector(b)
+end
+end
+end
+end
+end)
+
+FoodSection:NewButton("감자튀김", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts.FrenchFries.ClickDetector)
+end)
+
+FoodSection:NewButton("통햄", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts.Meat.ClickDetector)
+end)
+
+FoodSection:NewButton("메로나", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts["Melona Ice Cream"].ClickDetector)
+end)
+
+FoodSection:NewButton("피자", "클릭하면 얻어짐", function()
+for i,v in pairs(game:GetService("Workspace").Parts:GetChildren()) do
+if v.Name == "Pizza" then
+for a,b in pairs(v:GetChildren()) do
+if b.Name == "ClickDetector" then
+fireclickdetector(b)
+end
+end
+end
+end
+end)
+
+FoodSection:NewButton("샌드위치", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts.Sandwich.ClickDetector)
+end)
+
+FoodSection:NewButton("죠스바", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts["Shark Bar Ice Cream"].ClickDetector)
+end)
+
+FoodSection:NewButton("트로피카나", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts.Tropicana.ClickDetector)
+end)
+
+FoodSection:NewButton("식혜", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts["\236\139\157\237\152\156"].ClickDetector)
+end)
+
+FoodSection:NewButton("포도봉봉", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts["\237\143\172\235\143\132\235\180\137\235\180\137"].ClickDetector)
+end)
+
+FoodSection:NewLabel("음식 모두 얻기 스크립트")
+
+FoodSection:NewButton("음식 모두 얻기", "클릭하면 얻어짐", function()
+fireclickdetector(game:GetService("Workspace").Parts.Apple.ClickDetector)
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts.Banana.ClickDetector)
+
+wait(0.0001)
+
+for i,v in pairs(game:GetService("Workspace").Parts:GetChildren()) do
+if v.Name == "Donut" then
+for a,b in pairs(v:GetChildren()) do
+if b.Name == "ClickDetector" then
+fireclickdetector(b)
+end
+end
+end
+end
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts.FrenchFries.ClickDetector)
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts.Meat.ClickDetector)
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts["Melona Ice Cream"].ClickDetector)
+
+wait(0.0001)
+
+for i,v in pairs(game:GetService("Workspace").Parts:GetChildren()) do
+if v.Name == "Pizza" then
+for a,b in pairs(v:GetChildren()) do
+if b.Name == "ClickDetector" then
+fireclickdetector(b)
+end
+end
+end
+end
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts.Sandwich.ClickDetector)
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts["Shark Bar Ice Cream"].ClickDetector)
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts.Tropicana.ClickDetector)
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts["\236\139\157\237\152\156"].ClickDetector)
+
+wait(0.0001)
+
+fireclickdetector(game:GetService("Workspace").Parts["\237\143\172\235\143\132\235\180\137\235\180\137"].ClickDetector)
+end)
+
+local ButtonTab = Window:NewTab("버튼 누르기")
+
+local ButtonSection = ButtonTab:NewSection("버튼 누르기 스크립트 FE")
+
+ButtonSection:NewButton("모든 샤워기 버튼 누르기", "클릭하면 샤워기가 켜지거나 꺼짐", function()
+for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+if v.Name == "ShoweBooth" then
+for a,b in pairs(v:GetChildren()) do
+if b.Name == "ShowerButton" then
+for c,d in pairs(b:GetChildren()) do
+if d.Name == "ClickDetector" then
+fireclickdetector(d)
+end
+end
+end
+end
+end
+end
+end)
+
+ButtonSection:NewButton("샤워실로 텔포", "확인용", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(-62, 5, -124)))
+end)
+
+local TeleportTab = Window:NewTab("텔레포트")
+
+local TeleportSection = TeleportTab:NewSection("텔레포트 스크립트")
+
+TeleportSection:NewButton("로비로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(-13, 3, -6)))
+end)
+
+TeleportSection:NewButton("매점으로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(27, 7, 25)))
+end)
+
+TeleportSection:NewButton("급식실로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(27, 7, 91)))
+end)
+
+TeleportSection:NewButton("여자 샤워실로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(-62, 5, -124)))
+end)
+
+TeleportSection:NewButton("남자 샤워실로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(-38, 6, -166)))
+end)
+
+TeleportSection:NewButton("음악실로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(20, 7, -89)))
+end)
+
+TeleportSection:NewButton("1학년 1반으로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(27, 10, -39)))
+end)
+
+TeleportSection:NewButton("과학실로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(27, 21, -49)))
+end)
+
+TeleportSection:NewButton("체육관으로 텔레포트", "클릭하면 텔포됨", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = (CFrame.new(Vector3.new(43, 37, -69)))
+end)
+
+TeleportSection:NewLabel("플레이어한테 텔레포트 스크립트")
+
+local playerlist = {}
+
+for i,v in pairs(game.Players:GetPlayers())do
+    if v ~= game.Players.LocalPlayer then
+        table.insert(playerlist,v.Name)
+    end
+end
+
+TeleportSection:NewDropdown("플레이어한테 텔레포트", "플레이어를 선택하면 그 플레이어한테 텔레포트가 됩니다!", playerlist, function(TeleportPlayer)
+    players = game:GetService("Players")
+    target = players:FindFirstChild(TeleportPlayer)
+    players.LocalPlayer.Character:MoveTo(target.Character.HumanoidRootPart.Position)
+end)
+
+local PlayerTab = Window:NewTab("플레이어")
+
+local PlayerSection = PlayerTab:NewSection("로컬 플레이어 스크립트")
+
+PlayerSection:NewLabel("속도 조절")
+
+PlayerSection:NewSlider("걷는 속도", "플레어의 속도를 조정 합니다.", 250, 16, function(Speed)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Speed
+end)
+
+PlayerSection:NewSlider("점프 파워 속도", "플레이어의 점프 파워 속도를 조정 합니다.", 325, 50, function(Jump)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = Jump
+end)
+
+PlayerSection:NewTextBox("중력 조절", "텍스트 박스 안에 숫자가 낮을수록 중력이 낮아집니다!", function(GravityPower)
+	game.Workspace.Gravity = GravityPower
+end)
+
+
+PlayerSection:NewLabel("플레이어 스크립트")
+
+PlayerSection:NewTextBox("CFrame 스피드 조절", "텍스트 박스 안에 수가 높을수록 스피드가 빨라집니다!", function(CFrameSpeedL)
+	CFrameSpeed = CFrameSpeedL
+end)
+
+PlayerSection:NewToggle("CFrame 스피드", "토글을 활성화 하시면 CFrame 스피드가 활성화 됩니다!", function(state)
+    local hb = game:GetService("RunService").Heartbeat
+    
+    local speaker = game.Players.LocalPlayer
+    if state then
+        _G.CFrameSpeeding = true
+			local hum = speaker.Character and speaker.Character:FindFirstChildWhichIsA("Humanoid")
+			while _G.CFrameSpeeding == true and speaker.Character and hum and hum.Parent do
+				local delta = hb:Wait()
+				if hum.MoveDirection.Magnitude > 0 then
+					speaker.Character:TranslateBy(hum.MoveDirection * CFrameSpeed * delta * 10)
+				end
+			end
+    else
+        _G.CFrameSpeeding = false
+			local hum = speaker.Character and speaker.Character:FindFirstChildWhichIsA("Humanoid")
+			while _G.CFrameSpeeding == true and speaker.Character and hum and hum.Parent do
+				local delta = hb:Wait()
+				if hum.MoveDirection.Magnitude > 0 then
+					speaker.Character:TranslateBy(hum.MoveDirection * CFrameSpeed * delta * 10)
+				end
+			end
+    end
+end)
+
+PlayerSection:NewToggle("무한 점프", "토글을 활성화 하시면 무한점프가 활성화 됩니다!", function(InfJumping)
+    UIS = game:GetService("UserInputService")
+    
+    local speaker = game.Players.LocalPlayer
+    
+    if InfJumping then
+        _G.infjump = true
+			function Action(Object, Function) if Object ~= nil then Function(Object); end end
+ 
+			UIS.InputBegan:connect(function(UserInput)
+    			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space and _G.infjump == true then
+        			Action(speaker.Character.Humanoid, function(self)
+            			if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+                			Action(self.Parent.HumanoidRootPart, function(self)
+                    			self.Velocity = Vector3.new(0, 50, 0);
+                			end)
+            			end
+        			end)
+    			end
+    	    end)
+    else
+        _G.infjump = false
+			function Action(Object, Function) if Object ~= nil then Function(Object); end end
+ 
+			UIS.InputBegan:connect(function(UserInput)
+    			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space and _G.infjump == true then
+        			Action(speaker.Character.Humanoid, function(self)
+            			if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+                			Action(self.Parent.HumanoidRootPart, function(self)
+                    			self.Velocity = Vector3.new(0, 50, 0);
+                			end)
+            			end
+        			end)
+    			end
+    	    end)
+    end
+end)
+
+PlayerSection:NewToggle("수영", "토글을 활성화 하시면 수영이 활성화 됩니다!", function(Swimings)
+    local speaker = game.Players.LocalPlayer
+    if Swimings then
+        _G.swiming = false
+oldgrav = workspace.Gravity
+			if not swimming and speaker and speaker.Character and speaker.Character:FindFirstChildWhichIsA("Humanoid") then
+				workspace.Gravity = 0
+				local swimDied = function()
+					workspace.Gravity = oldgrav
+					swimming = false
+				end
+				local Humanoid = speaker.Character:FindFirstChildWhichIsA("Humanoid")
+				gravReset = Humanoid.Died:Connect(swimDied)
+				local enums = Enum.HumanoidStateType:GetEnumItems()
+				table.remove(enums, table.find(enums, Enum.HumanoidStateType.None))
+				for i, v in pairs(enums) do
+					Humanoid:SetStateEnabled(v, false)
+				end
+				Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
+				swimbeat = RunService.Heartbeat:Connect(function()
+					pcall(function()
+						speaker.Character.HumanoidRootPart.Velocity = ((Humanoid.MoveDirection ~= Vector3.new() or UserInputService:IsKeyDown(Enum.KeyCode.Space)) and speaker.Character.HumanoidRootPart.Velocity or Vector3.new())
+					end)
+				end)
+				swimming = true
+			end
+    else
+        if speaker and speaker.Character and speaker.Character:FindFirstChildWhichIsA("Humanoid") then
+				workspace.Gravity = oldgrav
+				swimming = false
+				if gravReset then
+					gravReset:Disconnect()
+				end
+				if swimbeat ~= nil then
+					swimbeat:Disconnect()
+					swimbeat = nil
+				end
+				local Humanoid = speaker.Character:FindFirstChildWhichIsA("Humanoid")
+				local enums = Enum.HumanoidStateType:GetEnumItems()
+				table.remove(enums, table.find(enums, Enum.HumanoidStateType.None))
+				for i, v in pairs(enums) do
+					Humanoid:SetStateEnabled(v, true)
+				end
+			end
+    end
+end)
+
+PlayerSection:NewToggle("제트팩", "스페이스바 꾹 누르면 됌", function(Jetpack)
+    local speaker = game.Players.LocalPlayer
+    if Jetpack then
+        _G.flyjump = true
+			game:GetService("UserInputService").JumpRequest:connect(function()
+    			if true and _G.flyjump == true then
+        			speaker.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+    			end
+			end)
+    else
+        _G.flyjump = false
+    end
+end)
+
+PlayerSection:NewToggle("버니 홉", "토클을 활성화 하면 점프가 계속 되는 버니홉이 활성화 됌", function(Jetpack)
+    local speaker = game.Players.LocalPlayer
+    if Jetpack then
+        _G.BunnyHop = true
+        while _G.BunnyHop == true do
+            wait()
+			speaker.Character:FindFirstChild("Humanoid").Jump = true
+		end
+    else
+        _G.BunnyHop = false
+    end
+end)
+
+PlayerSection:NewLabel("플레이어 툴 스크립트")
+
+PlayerSection:NewButton("모든 툴 없애기", "클릭하시면 모든 툴이 사라집니다.", function()
+speaker = game.Players.LocalPlayer
+
+for _,e in pairs(speaker.Backpack:GetDescendants()) do
+			if e:IsA("Tool") then
+				e:Destroy()
+			end
+		end
+end)
+
+PlayerSection:NewButton("모든 툴 드롭", "클릭하시면 모든 툴이 드롭 됩니다.", function()
+speaker = game.Players.LocalPlayer
+
+for i,v in pairs(speaker.Backpack:GetChildren()) do
+			if v:IsA("Tool") then
+				v.Parent = speaker.Character
+			end
+		end
+		wait()
+		for i,v in pairs(speaker.Character:GetChildren()) do
+			if v:IsA("Tool") then
+				v.Parent = workspace
+			end
+		end
+end)
+
+PlayerSection:NewButton("모든 툴 장착", "클릭하시면 모든 툴이 장착 됩니다.", function()
+speaker = game.Players.LocalPlayer
+
+for i,v in pairs(speaker:FindFirstChildOfClass("Backpack"):GetChildren()) do
+			if v:IsA("Tool") or v:IsA("HopperBin") then
+				v.Parent = speaker.Character
+			end
+		end
+end)
+
+PlayerSection:NewButton("모든 툴 장착 해제", "클릭하시면 모든 툴이 장착 해제 됩니다.", function()
+speaker = game.Players.LocalPlayer
+
+speaker.Character:FindFirstChildOfClass('Humanoid'):UnequipTools()
+end)
+
+PlayerSection:NewLabel("FE 신체 스크립트")
+
+PlayerSection:NewButton("앉기", "클릭하시면 앉아집니다.", function()
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
+end)
+
+PlayerSection:NewButton("점프", "클릭하시면 점프가 활성화 됩니다.", function()
+game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Jump = true
+end)
+
+PlayerSection:NewButton("오른쪽팔 없애기", "클릭하시면 오른쪽팔이 없어집니다.", function()
+local LP = game.Players.LocalPlayer
+LP.Character.RightUpperArm:Remove()
+end)
+
+PlayerSection:NewButton("왼쪽팔 없애기", "클릭하시면 왼쪽팔이 없어집니다.", function()
+local LP = game.Players.LocalPlayer
+LP.Character.LeftUpperArm:Remove()
+end)
+
+PlayerSection:NewButton("오른쪽 다리 없애기", "클릭하시면 오른쪽 다리가 없어집니다.", function()
+local LP = game.Players.LocalPlayer
+LP.Character.RightUpperLeg:Remove()
+end)
+
+PlayerSection:NewButton("왼쪽 다리 없애기", "클릭하시면 왼쪽 다리가 없어집니다.", function()
+local LP = game.Players.LocalPlayer
+LP.Character.LeftUpperLeg:Remove()
+end)
+
+local AnimationTab = Window:NewTab("애니메이션")
+
+local AnimationSection = AnimationTab:NewSection("애니메이션 바꾸기 스크립트 FE ⚠️ 점프 한번 뛰어야지 적용됨 ⚠️")
+
+AnimationSection:NewLabel("기본 애니메이션 패키지")
+
+AnimationSection:NewButton("기본 애니메이션", "클릭하면 기본 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=387947158"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=387947464"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=387947975"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616092998"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616094091"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=382460631"
+end)
+
+AnimationSection:NewButton("해적 애니메이션", "클릭하면 해적 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=750779899"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=750781874"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=750782770"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=750782230"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=750783738"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=750784579"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=750785176"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=750785693"
+end)
+
+AnimationSection:NewButton("토이 애니메이션", "클릭하면 토이 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=782843869"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=782844582"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=782845186"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+end)
+
+AnimationSection:NewButton("기사 애니메이션", "클릭하면 토이 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=658360781"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=658409194"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=657564596"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=657560551"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=657557095"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
+end)
+
+AnimationSection:NewButton("우주비행사 애니메이션", "클릭하면 우주비행사 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=891609353"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=891617961"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=891621366"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=891633237"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=891627522"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=891639666"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=891663592"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+end)
+		
+AnimationSection:NewButton("뱀파이어 애니메이션", "클릭하면 뱀파이어 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083450166"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083455352"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083462077"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=1083464683"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=1083467779"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083473930"
+end)
+		
+AnimationSection:NewButton("로봇 애니메이션", "클릭하면 로봇 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616086039"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616090535"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616091570"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616092998"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616094091"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
+end)
+		
+AnimationSection:NewButton("공중부양 애니메이션", "클릭하면 공중부양 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616011509"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616012453"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+end)
+	
+AnimationSection:NewButton("버블 애니메이션", "클릭하면 버블 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=909997997"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=910001910"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=910004836"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=910009958"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=910016857"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=910025107"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=910028158"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=910030921"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=910034870"
+end)
+	
+AnimationSection:NewButton("늑대 인간 애니메이션", "클릭하면 늑대 인간 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083182000"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=1083222527"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=1083225406"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+end)
+
+AnimationSection:NewButton("스타일리시 애니메이션", "클릭하면 스타일리시 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616133594"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616134815"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616136790"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616138447"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616139451"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616140816"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616143378"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616144772"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616146177"
+end)
+
+AnimationSection:NewButton("마법사 애니메이션", "클릭하면 마법사 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=707876443"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=707894699"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+end)
+	
+AnimationSection:NewButton("카툰 애니메이션", "클릭하면 카툰 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=742636889"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=742637151"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=742637942"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=742638842"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=742639220"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=742639812"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=742640026"
+end)
+	
+AnimationSection:NewButton("좀비 애니메이션", "클릭하면 좀비 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616156119"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616165109"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616166655"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+end)
+	
+AnimationSection:NewButton("슈퍼 히어로 애니메이션", "클릭하면 슈퍼 히어로 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616104706"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616111295"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616113536"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616115533"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616117076"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616119360"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616120861"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616122287"
+end)
+	
+AnimationSection:NewButton("닌자 애니메이션", "클릭하면 닌자 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=656119721"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=656121397"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=656121766"
+end)
+	
+AnimationSection:NewButton("어르신 애니메이션", "클릭하면 어르신 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=845392038"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=845396048"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=845397899"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=845400520"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=845398858"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=845386501"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=845401742"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=845403127"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=845403856"
+end)
+
+AnimationSection:NewButton("(잼들이 가장 많이 쓰는 애니메이션)", "클릭하면 올드 스쿨 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=5319816685"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319831086"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=5319841935"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=5319844329"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=5319850266"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=5319852613"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+end)
+	
+AnimationSection:NewLabel("그외에 다른 애니메이션 패키지")
+	
+AnimationSection:NewButton("자신감 애니메이션", "클릭하면 자신감 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+			Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1069946257"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1069973677"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1069977950"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1069987858"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1069984524"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1070001516"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=1070009914"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=1070012133"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1070017263"
+end)
+	
+AnimationSection:NewButton("팝스타 애니메이션", "클릭하면 팝스타 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1213044953"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1212900995"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1212900985"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1212900985"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1212954642"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1212980348"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=1212852603"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=1212998578"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1212980338"
+end)
+	
+AnimationSection:NewButton("프린세스 애니메이션", "클릭하면 프린세스 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=940996062"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=941000007"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=941003647"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=941013098"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=941008832"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=941015281"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=941018893"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=941025398"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=941028902"
+end)
+
+AnimationSection:NewButton("카우보이 애니메이션", "클릭하면 카우보이 애니메이션으로 바뀜", function()
+local Char = game.Players.LocalPlayer.Character
+Char.Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1014380606"
+			Char.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1014384571"
+			Char.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1014390418"
+			Char.Animate.idle.Animation1.Weight.Value = "9"
+			Char.Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1014398616"
+			Char.Animate.idle.Animation2.Weight.Value = "1"
+			Char.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1014394726"
+			Char.Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1014401683"
+			Char.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=1014406523"
+			Char.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=1014411816"
+			Char.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1014421541"
+		end)
